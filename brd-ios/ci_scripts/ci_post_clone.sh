@@ -4,7 +4,7 @@
 #  breadwallet
 #
 #  Created by Gardner von Holt on 9/6/22.
-#  Copyright © 2022 Fabriik Exchange, LLC. All rights reserved.
+#  Copyright © 2022 Placeholder, LLC. All rights reserved.
 
 # Set the -e flag to stop running the script in case a command returns
 # a nonzero exit code.
@@ -27,7 +27,6 @@ echo "DEBUG_URL=$DEBUG_URL" >> $BRD_ENV
 echo "DEBUG_TOKEN=$DEBUG_TOKEN" >> $BRD_ENV
 echo "DEBUG_CHECKOUT_TOKEN=$DEBUG_CHECKOUT_TOKEN" >> $BRD_ENV
 echo "IS_TEST=true" >> $BRD_ENV
-
 
 echo "STAGING_URL=$STAGING_URL" >> $BRD_ENV
 echo "STAGING_TOKEN=$STAGING_TOKEN" >> $BRD_ENV
